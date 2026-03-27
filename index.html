@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Álbum de Fotos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="titulo">Galeria de Fotos</h1>
+
+    <!-- Container da Galeria -->
+    <div class="galeria">
+        <div class="foto"><img src="foto1.jpg" alt="Foto 1"></div>
+        <div class="foto"><img src="foto2.jpg" alt="Foto 2"></div>
+        <div class="foto"><img src="foto3.jpg" alt="Foto 3"></div>
+        <div class="foto"><img src="foto4.jpg" alt="Foto 4"></div>
+    </div>
+
+    <!-- Modal para Zoom (Lightbox) -->
+    <div class="modal" id="modal">
+        <span class="fechar">&times;</span>
+        <img class="modal-content" id="img-ampliada">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
