@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Álbum de Fotos</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/home.css">
+</head>
+<body>
+    <header> <!-- Cabeçalho -->
+        <h1>PHOTOGRAPHY</h1>
+        <p>MOMENTOS INCRIVEIS</p>
+    </header>
+    <nav> <!-- Menu -->
+        <a href="home.html">Home</a>
+        <a href="fotos-pedro.html">Fotos Pedro</a>
+        <a href="fotos-marialuiza.html">Fotos Luiza</a>
+        <a href="fotos-viagens.html">Fotos Viagens</a>
+        <a href="#">Portfólio</a>
+        <a href="#">Fale Conosco</a>
+    </nav>
+    <!-- <h1 class="titulo">Galeria de Fotos</h1> -->
+
+    <!-- Container da Galeria -->
+    <div class="galeria">
+        <div class="foto"><img src="Foto001_Pedro-2025-10-29-204700.jpg" alt="Foto 1"><p>Baby Pedro 29-10-2025</p></div>
+        <!--<div class="foto"><img src="Foto005_Pedro-2025-10-30 à(s) 19.17.10_e8b0a527.jpg" alt="Foto 2"><p>Baby Pedro 30-10-2025</p></div>-->
+        <div class="foto"><img src="Foto017_Pedro-2025-11-19.jpg" alt="Foto 3"><p>Baby Pedro 19-11-2025</p></div>
+        <div class="foto"><img src="Foto088_Pedro-2026-03-03.jpeg" alt="Baby Pedro smiling joyfully while wearing a red striped shirt with navy lines and holding a yellow toy. He is seated against a light-colored pillow, expressing contentment and happiness in a warm, intimate moment.">
+        <p>Baby Pedro 03-03-2026</p></div>
+    </div>
+
+    <!-- Modal para Zoom (Lightbox) -->
+    <div class="modal" id="modal">
+        <span class="fechar">&times;</span>
+        <img class="modal-content" id="img-ampliada">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
