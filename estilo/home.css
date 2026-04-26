@@ -145,7 +145,7 @@ main {
 }*/
 
 main h2 {
-    font-family: var(--fonte-android);
+    font-family: var(--fonte-destaque);
     color: var(--cor4);
     font-size: 1.5em;
     font-weight: normal;
