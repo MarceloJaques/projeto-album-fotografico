@@ -59,13 +59,13 @@ a.externo::after {
 
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
-    min-height: 150px;
-    text-align: center;
+    /*min-height: 150px;*/
+    text-align: left;
     /*padding-top: 40px;*/
-    padding: 20px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    padding: 15px;
+    /*display: flex;*/
+    /*flex-flow: row wrap;*/
+    /*justify-content: space-between;*/
     align-items: center;
 }
 
@@ -74,7 +74,7 @@ header > h1 {
     font-family: var(--fonte-destaque);
     font-size: 3.5em;
     font-weight: normal;
-    margin-bottom: 12px;
+    margin-bottom: 5px;
     flex: 0 0 200px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
@@ -83,10 +83,13 @@ header > p {
     color: white;
     font-family: var(--fonte-destaque);
     font-size: 1.8em;
-    max-width: 600px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    flex: 0 0 200px;
+    /*max-width: 600px;
     padding-right: 10px;
     padding-left: 10px;
-    margin: auto;
+    margin: auto;*/
     /*margin-bottom: 20px;*/
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 }
@@ -99,8 +102,8 @@ nav {
     box-shadow: 0px 7px 7px rgba(0,0,0, 0.192);*/
     display: flex;
     flex-flow: row wrap;
-    justify-content: right;
-    gap: 10px;
+    justify-content: center;
+    gap: 5px;
 }
 
 nav > a {
@@ -150,7 +153,7 @@ main h2 {
     font-size: 1.5em;
     font-weight: normal;
     margin-left: 5px;
-    /*text-align: center;*/
+    text-align: left;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 8px;
 }
